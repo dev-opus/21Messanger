@@ -43,13 +43,13 @@
 
    - **functionality**: Creates a new Message and adds it to the messages array
 
-   - **params**: `solidity string _text`
-   - **returns**: `solidity uint _messageId`
+   - **params**: `string _text`
+   - **returns**: `uint _messageId`
 
 2. **clap**
 
    - **functionality**: increase the `claps` count of a Message by `1`
-   - **params**: `solidity uint _messageId` and `solidity uint _clap`
+   - **params**: `uint _messageId` and ` uint _clap`
 
 3. **markAsSpam**
 
@@ -59,12 +59,12 @@
 
 4. **unMarkAsSpam**
 
-- **functionality**: marks a spam Message as non-spam. Only available to the contract owner.
-  - **returns**: messageId
+   - **functionality**: marks a spam Message as non-spam. Only available to the contract owner.
+   - **returns**: messageId
 
 5. **get**
    - **functionality**: retrieves all the added Messagess
-   - **returns**: `solidity Message[] messages`
+   - **returns**: `Message[] messages`
 
 ### Setup
 
